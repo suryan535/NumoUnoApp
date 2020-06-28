@@ -1,0 +1,57 @@
+.navContainer {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+}
+
+.innerContainer {
+  position: relative;
+}
+.dropDownContact {
+  position: absolute;
+  left: 70px;
+  top: 20px;
+  width: 300px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.1rem;
+  line-height: 20px;
+  padding: 0 5px;
+  margin-bottom: 1.3rem;
+  /* identical to box height */
+
+  color: #7b8591;
+}
+
+.heading {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.3rem;
+  line-height: 22px;
+  /* identical to box height */
+
+  color: #4da1ff;
+}
+
+.space1 {
+  height: 160px;
+  background-color: white;
+}
+
+.space2 {
+  height: 190px;
+}

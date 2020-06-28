@@ -1,0 +1,23 @@
+.item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+button {
+  background-color: white;
+  border: none;
+  padding: 16px;
+}
+
+.active,
+.arrow {
+  opacity: 0;
+}
+
+.item:hover .active {
+  opacity: 1;
+}
+.item:hover .arrow {
+  opacity: 1;
+}

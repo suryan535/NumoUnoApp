@@ -1,0 +1,30 @@
+.cardOuter {
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.heading {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.3rem;
+  line-height: 27px;
+  margin-bottom: 16px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.text {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 60px;
+  /* identical to box height */
+}
