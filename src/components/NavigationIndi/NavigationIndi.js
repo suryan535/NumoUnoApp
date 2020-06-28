@@ -1,41 +1,54 @@
-import React from "react";
+import React, { Component } from "react";
 import classes from "./NavigationIndi.module.css";
 import Arrow from "../../assets/arrow.svg";
 import Active from "../../assets/active.svg";
-import Circle from "../../assets/circle.svg";
-import Contact from "../../assets/contact.svg";
-import Message from "../../assets/message.svg";
-import Dual from "../../assets/dual.svg";
-import Hamberger from "../../assets/hamberger.svg";
+import { render } from "@testing-library/react";
 
-const navigationIndi = (props) => {
-  let Icon = null;
+class navigationIndi extends Component {
+  state = {
+    colorStyle: {
+      color: "#c4cacf",
+    },
+  };
 
-  if (props.name === "Contact") {
-    Icon = Contact;
-  } else if (props.name === "Circle") {
-    Icon = Circle;
-  } else if (props.name === "Message") {
-    Icon = Message;
-  } else if (props.name === "Dual") {
-    Icon = Dual;
-  } else Icon = Hamberger;
+  colorChangeHandler = () => {
+    let check = this.state.colorStyle.color;
+    if (check === "#c4cacf") {
+      check = { color: "#4DA1FF" };
+    } else {
+      check = { color: "#c4cacf" };
+    }
 
-  return (
-    <div className={classes.item}>
-      <div className={classes.active}>
-        <img src={Active}></img>
+    this.setState({ colorStyle: check });
+  };
+  render() {
+    let Icon = null;
+
+    if (this.props.name === "Contact") {
+      Icon = <i class="las la-address-book"></i>;
+    } else if (this.props.name === "Circle") {
+      Icon = <i class="las la-folder"></i>;
+    } else if (this.props.name === "Message") {
+      Icon = <i class="las la-sms"></i>;
+    } else if (this.props.name === "Dual") {
+      Icon = <i class="las la-user-cog"></i>;
+    } else Icon = <i class="las la-layer-group"></i>;
+    return (
+      <div className={classes.item}>
+        <div className={classes.active}>
+          <img src={Active}></img>
+        </div>
+        <div className={classes.icon} onClick={this.colorChangeHandler}>
+          <button onClick={this.props.clicked} style={this.state.colorStyle}>
+            {Icon}
+          </button>
+        </div>
+        <div className={classes.arrow}>
+          <img src={Arrow}></img>
+        </div>
       </div>
-      <div className={classes.icon}>
-        <button onClick={props.clicked}>
-          <img src={Icon} alt="Something"></img>
-        </button>
-      </div>
-      <div className={classes.arrow}>
-        <img src={Arrow}></img>
-      </div>
-    </div>
-  );
-};
+    );
+  }
+}
 
 export default navigationIndi;

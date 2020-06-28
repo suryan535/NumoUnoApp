@@ -21,3 +21,7 @@ button {
 .item:hover .arrow {
   opacity: 1;
 }
+
+i {
+  font-size: 35px;
+}
