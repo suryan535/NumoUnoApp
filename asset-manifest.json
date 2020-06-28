@@ -1,27 +1,22 @@
 {
   "files": {
-    "main.css": "/NumoUnoApp/static/css/main.3d0913f7.chunk.css",
-    "main.js": "/NumoUnoApp/static/js/main.c0d81591.chunk.js",
-    "main.js.map": "/NumoUnoApp/static/js/main.c0d81591.chunk.js.map",
+    "main.css": "/NumoUnoApp/static/css/main.bdd5c526.chunk.css",
+    "main.js": "/NumoUnoApp/static/js/main.fa0f2921.chunk.js",
+    "main.js.map": "/NumoUnoApp/static/js/main.fa0f2921.chunk.js.map",
     "runtime-main.js": "/NumoUnoApp/static/js/runtime-main.fc1a18b7.js",
     "runtime-main.js.map": "/NumoUnoApp/static/js/runtime-main.fc1a18b7.js.map",
-    "static/js/2.19083fc9.chunk.js": "/NumoUnoApp/static/js/2.19083fc9.chunk.js",
-    "static/js/2.19083fc9.chunk.js.map": "/NumoUnoApp/static/js/2.19083fc9.chunk.js.map",
+    "static/js/2.92c5b616.chunk.js": "/NumoUnoApp/static/js/2.92c5b616.chunk.js",
+    "static/js/2.92c5b616.chunk.js.map": "/NumoUnoApp/static/js/2.92c5b616.chunk.js.map",
     "index.html": "/NumoUnoApp/index.html",
-    "precache-manifest.92935ca6ade0f2e6a186153dacbcab7a.js": "/NumoUnoApp/precache-manifest.92935ca6ade0f2e6a186153dacbcab7a.js",
+    "precache-manifest.18c43b664c33965801c191b99bd9e8d3.js": "/NumoUnoApp/precache-manifest.18c43b664c33965801c191b99bd9e8d3.js",
     "service-worker.js": "/NumoUnoApp/service-worker.js",
-    "static/css/main.3d0913f7.chunk.css.map": "/NumoUnoApp/static/css/main.3d0913f7.chunk.css.map",
-    "static/js/2.19083fc9.chunk.js.LICENSE.txt": "/NumoUnoApp/static/js/2.19083fc9.chunk.js.LICENSE.txt",
+    "static/css/main.bdd5c526.chunk.css.map": "/NumoUnoApp/static/css/main.bdd5c526.chunk.css.map",
+    "static/js/2.92c5b616.chunk.js.LICENSE.txt": "/NumoUnoApp/static/js/2.92c5b616.chunk.js.LICENSE.txt",
     "static/media/active.svg": "/NumoUnoApp/static/media/active.48dab390.svg",
     "static/media/arrow.svg": "/NumoUnoApp/static/media/arrow.b87d7803.svg",
     "static/media/arrowdown.svg": "/NumoUnoApp/static/media/arrowdown.80fa7da9.svg",
-    "static/media/circle.svg": "/NumoUnoApp/static/media/circle.4cbe3c34.svg",
     "static/media/company.svg": "/NumoUnoApp/static/media/company.675ccde1.svg",
     "static/media/connections.svg": "/NumoUnoApp/static/media/connections.0c22c608.svg",
-    "static/media/contact.svg": "/NumoUnoApp/static/media/contact.66ae8336.svg",
-    "static/media/dual.svg": "/NumoUnoApp/static/media/dual.ca83123d.svg",
-    "static/media/hamberger.svg": "/NumoUnoApp/static/media/hamberger.8163a8b6.svg",
-    "static/media/message.svg": "/NumoUnoApp/static/media/message.3655b38d.svg",
     "static/media/peers.svg": "/NumoUnoApp/static/media/peers.483b7c65.svg",
     "static/media/pointarrow.svg": "/NumoUnoApp/static/media/pointarrow.de65546f.svg",
     "static/media/popularTime.svg": "/NumoUnoApp/static/media/popularTime.08ec164e.svg",
@@ -35,8 +30,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.fc1a18b7.js",
-    "static/js/2.19083fc9.chunk.js",
-    "static/css/main.3d0913f7.chunk.css",
-    "static/js/main.c0d81591.chunk.js"
+    "static/js/2.92c5b616.chunk.js",
+    "static/css/main.bdd5c526.chunk.css",
+    "static/js/main.fa0f2921.chunk.js"
   ]
 }

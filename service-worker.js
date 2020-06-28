@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/NumoUnoApp/precache-manifest.92935ca6ade0f2e6a186153dacbcab7a.js"
+  "/NumoUnoApp/precache-manifest.18c43b664c33965801c191b99bd9e8d3.js"
 );
 
 self.addEventListener('message', (event) => {

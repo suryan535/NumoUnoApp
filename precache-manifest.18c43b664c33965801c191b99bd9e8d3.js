@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "68965e418a532ad46e2e3770da848414",
+    "revision": "4ce47fa54460f208d82332e80acd70c5",
     "url": "/NumoUnoApp/index.html"
   },
   {
-    "revision": "e9df95308c4bb5fb808c",
-    "url": "/NumoUnoApp/static/css/main.3d0913f7.chunk.css"
+    "revision": "5d6ab09ccdee572ac333",
+    "url": "/NumoUnoApp/static/css/main.bdd5c526.chunk.css"
   },
   {
-    "revision": "add3c5222cdc4bc3f49c",
-    "url": "/NumoUnoApp/static/js/2.19083fc9.chunk.js"
+    "revision": "e622e1f34193f563b7f2",
+    "url": "/NumoUnoApp/static/js/2.92c5b616.chunk.js"
   },
   {
-    "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/NumoUnoApp/static/js/2.19083fc9.chunk.js.LICENSE.txt"
+    "revision": "6287c65a6963df837d60dc49bb220910",
+    "url": "/NumoUnoApp/static/js/2.92c5b616.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e9df95308c4bb5fb808c",
-    "url": "/NumoUnoApp/static/js/main.c0d81591.chunk.js"
+    "revision": "5d6ab09ccdee572ac333",
+    "url": "/NumoUnoApp/static/js/main.fa0f2921.chunk.js"
   },
   {
     "revision": "6e3ce093ca8d496846d5",
@@ -36,32 +36,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/NumoUnoApp/static/media/arrowdown.80fa7da9.svg"
   },
   {
-    "revision": "4cbe3c342c65b3c4adb457f65fda365e",
-    "url": "/NumoUnoApp/static/media/circle.4cbe3c34.svg"
-  },
-  {
     "revision": "675ccde152dd911ae9e21f0c7a83f034",
     "url": "/NumoUnoApp/static/media/company.675ccde1.svg"
   },
   {
     "revision": "0c22c608c7450549f4e7d4d9c80021f9",
     "url": "/NumoUnoApp/static/media/connections.0c22c608.svg"
-  },
-  {
-    "revision": "66ae8336a39e2e521e4b0a4bc34a8ece",
-    "url": "/NumoUnoApp/static/media/contact.66ae8336.svg"
-  },
-  {
-    "revision": "ca83123ddaceb572587476cae3003dea",
-    "url": "/NumoUnoApp/static/media/dual.ca83123d.svg"
-  },
-  {
-    "revision": "8163a8b6ff9611a29477ac425ef947c0",
-    "url": "/NumoUnoApp/static/media/hamberger.8163a8b6.svg"
-  },
-  {
-    "revision": "3655b38d3c3a2c8dd24e99cf206eea65",
-    "url": "/NumoUnoApp/static/media/message.3655b38d.svg"
   },
   {
     "revision": "483b7c65d4cdf134cedd2b52b4836e2f",
