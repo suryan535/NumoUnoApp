@@ -30,7 +30,7 @@ const card = (props) => {
       <div className={classes.inner}>
         <div className={classes.text}>{props.number}</div>
         <div className={classes.image}>
-          <img src={props.image}></img>
+          <img src={props.image} alt="&#8900;"></img>
         </div>
       </div>
     </div>

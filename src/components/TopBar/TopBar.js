@@ -8,9 +8,13 @@ const topBar = () => {
     <div className={classes.outer}>
       <div className={classes.name}>Hello John !</div>
       <div className={classes.avatar}>
-        <div className={classes.user}><img src={Profile}></img></div>
+        <div className={classes.user}>
+          <img src={Profile} alt="&#8900;"></img>
+        </div>
         <div className={classes.user}>User Name</div>
-        <div className={classes.user}><img src={Arrow}></img></div>
+        <div className={classes.user}>
+          <img src={Arrow} alt="&#8900;"></img>
+        </div>
       </div>
     </div>
   );

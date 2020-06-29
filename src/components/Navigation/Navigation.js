@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import PointArrow from "../../assets/pointarrow.svg";
 import classes from "./Navigation.module.css";
 import NavigationIndi from "../NavigationIndi/NavigationIndi";
+import DropIndi from "./DropIndi/DropIndi";
 
 class navigationBar extends Component {
   state = {
@@ -16,42 +16,12 @@ class navigationBar extends Component {
         <div className={classes.dropDownContact}>
           <div className={classes.heading}>Profile</div>
           <ul>
-            <li>
-              <div className={classes.textLink}>My Profile</div>
-              <div className={classes.arrowImage}>
-                <img src={PointArrow}></img>
-              </div>
-            </li>
-            <li>
-              <div className={classes.textLink}>Strength Overview</div>
-              <div className={classes.arrowImage}>
-                <img src={PointArrow}></img>
-              </div>
-            </li>
-            <li>
-              <div className={classes.textLink}>My details</div>
-              <div className={classes.arrowImage}>
-                <img src={PointArrow}></img>
-              </div>
-            </li>
-            <li>
-              <div className={classes.textLink}>Resume</div>
-              <div className={classes.arrowImage}>
-                <img src={PointArrow}></img>
-              </div>
-            </li>
-            <li>
-              <div className={classes.textLink}>Cover letter</div>
-              <div className={classes.arrowImage}>
-                <img src={PointArrow}></img>
-              </div>
-            </li>
-            <li>
-              <div className={classes.textLink}>Following</div>
-              <div className={classes.arrowImage}>
-                <img src={PointArrow}></img>
-              </div>
-            </li>
+            <DropIndi name="My Profile" />
+            <DropIndi name="Strength Overview" />
+            <DropIndi name="My Details" />
+            <DropIndi name="Resume" />
+            <DropIndi name="Cover Letter" />
+            <DropIndi name="Following" />
           </ul>
         </div>
       );
@@ -65,57 +35,17 @@ class navigationBar extends Component {
         <div className={classes.dropDownContact}>
           <div className={classes.heading}>Opportunites</div>
           <ul>
-            <li>
-              <div className={classes.textLink}>Suggestions</div>
-              <div className={classes.arrowImage}>
-                <img src={PointArrow}></img>
-              </div>
-            </li>
-            <li>
-              <div className={classes.textLink}>My Preferences</div>
-              <div className={classes.arrowImage}>
-                <img src={PointArrow}></img>
-              </div>
-            </li>
-            <li>
-              <div className={classes.textLink}>Internships</div>
-              <div className={classes.arrowImage}>
-                <img src={PointArrow}></img>
-              </div>
-            </li>
-            <li>
-              <div className={classes.textLink}>My applications</div>
-              <div className={classes.arrowImage}>
-                <img src={PointArrow}></img>
-              </div>
-            </li>
-            <li>
-              <div className={classes.textLink}>Cover letter</div>
-              <div className={classes.arrowImage}>
-                <img src={PointArrow}></img>
-              </div>
-            </li>
-            <li>
-              <div className={classes.textLink}>Following</div>
-              <div className={classes.arrowImage}>
-                <img src={PointArrow}></img>
-              </div>
-            </li>
+            <DropIndi name="Suggestions" />
+            <DropIndi name="My Preferences" />
+            <DropIndi name="Internships" />
+            <DropIndi name="My Applications" />
+            <DropIndi name="Cover Letter" />
+            <DropIndi name="Following" />
           </ul>
           <div className={classes.heading}>Career materials</div>
           <ul>
-            <li>
-              <div className={classes.textLink}>Blog</div>
-              <div className={classes.arrowImage}>
-                <img src={PointArrow}></img>
-              </div>
-            </li>
-            <li>
-              <div className={classes.textLink}>Pod casts</div>
-              <div className={classes.arrowImage}>
-                <img src={PointArrow}></img>
-              </div>
-            </li>
+            <DropIndi name="Blog" />
+            <DropIndi name="Pod Casts" />
           </ul>
         </div>
       );
@@ -129,57 +59,17 @@ class navigationBar extends Component {
         <div className={classes.dropDownContact}>
           <div className={classes.heading}>Professional groups</div>
           <ul>
-            <li>
-              <div className={classes.textLink}>Group 1</div>
-              <div className={classes.arrowImage}>
-                <img src={PointArrow}></img>
-              </div>
-            </li>
-            <li>
-              <div className={classes.textLink}>Group 2</div>
-              <div className={classes.arrowImage}>
-                <img src={PointArrow}></img>
-              </div>
-            </li>
-            <li>
-              <div className={classes.textLink}>Group 3</div>
-              <div className={classes.arrowImage}>
-                <img src={PointArrow}></img>
-              </div>
-            </li>
-            <li>
-              <div className={classes.textLink}>Group 4</div>
-              <div className={classes.arrowImage}>
-                <img src={PointArrow}></img>
-              </div>
-            </li>
+            <DropIndi name="Group 1" />
+            <DropIndi name="Group 2" />
+            <DropIndi name="Group 3" />
+            <DropIndi name="Group 4" />
           </ul>
           <div className={classes.heading}>Companies</div>
           <ul>
-            <li>
-              <div className={classes.textLink}>Company 1</div>
-              <div className={classes.arrowImage}>
-                <img src={PointArrow}></img>
-              </div>
-            </li>
-            <li>
-              <div className={classes.textLink}>Company 2</div>
-              <div className={classes.arrowImage}>
-                <img src={PointArrow}></img>
-              </div>
-            </li>
-            <li>
-              <div className={classes.textLink}>Company 3</div>
-              <div className={classes.arrowImage}>
-                <img src={PointArrow}></img>
-              </div>
-            </li>
-            <li>
-              <div className={classes.textLink}>Company 4</div>
-              <div className={classes.arrowImage}>
-                <img src={PointArrow}></img>
-              </div>
-            </li>
+            <DropIndi name="Company 1" />
+            <DropIndi name="Company 2" />
+            <DropIndi name="Company 3" />
+            <DropIndi name="Company 4" />
           </ul>
         </div>
       );
@@ -193,24 +83,9 @@ class navigationBar extends Component {
         <div className={classes.dropDownContact}>
           <div className={classes.heading}>Settings</div>
           <ul>
-            <li>
-              <div className={classes.textLink}>User Preferences</div>
-              <div className={classes.arrowImage}>
-                <img src={PointArrow}></img>
-              </div>
-            </li>
-            <li>
-              <div className={classes.textLink}>Account Settings</div>
-              <div className={classes.arrowImage}>
-                <img src={PointArrow}></img>
-              </div>
-            </li>
-            <li>
-              <div className={classes.textLink}>Privacy Settings</div>
-              <div className={classes.arrowImage}>
-                <img src={PointArrow}></img>
-              </div>
-            </li>
+            <DropIndi name="User Preferences" />
+            <DropIndi name="Account Settings" />
+            <DropIndi name="Privacy Settings" />
           </ul>
         </div>
       );

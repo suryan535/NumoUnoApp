@@ -7,7 +7,11 @@ const card2 = (props) => {
       <div className={classes.heading}>{props.header}</div>
       <hr></hr>
       <div className={classes.content}>
-        <img src={props.image} className={classes.contentImage}></img>
+        <img
+          src={props.image}
+          className={classes.contentImage}
+          alt="&#8900;"
+        ></img>
       </div>
     </div>
   );

@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import classes from "./NavigationIndi.module.css";
 import Arrow from "../../assets/arrow.svg";
 import Active from "../../assets/active.svg";
-import { render } from "@testing-library/react";
 
 class navigationIndi extends Component {
   state = {
@@ -25,18 +24,18 @@ class navigationIndi extends Component {
     let Icon = null;
 
     if (this.props.name === "Contact") {
-      Icon = <i class="las la-address-book"></i>;
+      Icon = <i className="las la-address-book"></i>;
     } else if (this.props.name === "Circle") {
-      Icon = <i class="las la-folder"></i>;
+      Icon = <i className="las la-folder"></i>;
     } else if (this.props.name === "Message") {
-      Icon = <i class="las la-sms"></i>;
+      Icon = <i className="las la-sms"></i>;
     } else if (this.props.name === "Dual") {
-      Icon = <i class="las la-user-cog"></i>;
-    } else Icon = <i class="las la-layer-group"></i>;
+      Icon = <i className="las la-user-cog"></i>;
+    } else Icon = <i className="las la-layer-group"></i>;
     return (
       <div className={classes.item}>
         <div className={classes.active}>
-          <img src={Active}></img>
+          <img src={Active} alt="&#8900;"></img>
         </div>
         <div className={classes.icon} onClick={this.colorChangeHandler}>
           <button onClick={this.props.clicked} style={this.state.colorStyle}>
@@ -44,7 +43,7 @@ class navigationIndi extends Component {
           </button>
         </div>
         <div className={classes.arrow}>
-          <img src={Arrow}></img>
+          <img src={Arrow} alt="&#8900;"></img>
         </div>
       </div>
     );

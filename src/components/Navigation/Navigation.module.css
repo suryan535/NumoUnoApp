@@ -13,27 +13,13 @@
   left: 70px;
   top: 20px;
   width: 300px;
+  padding: 10px;
   background-color: white;
   border-radius: 10px;
 }
 
 ul {
   list-style-type: none;
-}
-
-li {
-  display: flex;
-  justify-content: space-between;
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 1.1rem;
-  line-height: 20px;
-  padding: 0 5px;
-  margin-bottom: 1.3rem;
-  /* identical to box height */
-
-  color: #7b8591;
 }
 
 .heading {
@@ -48,10 +34,9 @@ li {
 }
 
 .space1 {
-  height: 160px;
-  background-color: white;
+  height: 15vh;
 }
 
 .space2 {
-  height: 190px;
+  height: 25vh;
 }
