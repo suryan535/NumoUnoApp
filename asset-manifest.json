@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/NumoUnoApp/static/css/main.bdd5c526.chunk.css",
-    "main.js": "/NumoUnoApp/static/js/main.fa0f2921.chunk.js",
-    "main.js.map": "/NumoUnoApp/static/js/main.fa0f2921.chunk.js.map",
+    "main.css": "/NumoUnoApp/static/css/main.0a292251.chunk.css",
+    "main.js": "/NumoUnoApp/static/js/main.7c14302c.chunk.js",
+    "main.js.map": "/NumoUnoApp/static/js/main.7c14302c.chunk.js.map",
     "runtime-main.js": "/NumoUnoApp/static/js/runtime-main.fc1a18b7.js",
     "runtime-main.js.map": "/NumoUnoApp/static/js/runtime-main.fc1a18b7.js.map",
-    "static/js/2.92c5b616.chunk.js": "/NumoUnoApp/static/js/2.92c5b616.chunk.js",
-    "static/js/2.92c5b616.chunk.js.map": "/NumoUnoApp/static/js/2.92c5b616.chunk.js.map",
+    "static/js/2.5ddddce0.chunk.js": "/NumoUnoApp/static/js/2.5ddddce0.chunk.js",
+    "static/js/2.5ddddce0.chunk.js.map": "/NumoUnoApp/static/js/2.5ddddce0.chunk.js.map",
     "index.html": "/NumoUnoApp/index.html",
-    "precache-manifest.18c43b664c33965801c191b99bd9e8d3.js": "/NumoUnoApp/precache-manifest.18c43b664c33965801c191b99bd9e8d3.js",
+    "precache-manifest.fcffdcccf437304397d4721b3ac2204c.js": "/NumoUnoApp/precache-manifest.fcffdcccf437304397d4721b3ac2204c.js",
     "service-worker.js": "/NumoUnoApp/service-worker.js",
-    "static/css/main.bdd5c526.chunk.css.map": "/NumoUnoApp/static/css/main.bdd5c526.chunk.css.map",
-    "static/js/2.92c5b616.chunk.js.LICENSE.txt": "/NumoUnoApp/static/js/2.92c5b616.chunk.js.LICENSE.txt",
+    "static/css/main.0a292251.chunk.css.map": "/NumoUnoApp/static/css/main.0a292251.chunk.css.map",
+    "static/js/2.5ddddce0.chunk.js.LICENSE.txt": "/NumoUnoApp/static/js/2.5ddddce0.chunk.js.LICENSE.txt",
     "static/media/active.svg": "/NumoUnoApp/static/media/active.48dab390.svg",
     "static/media/arrow.svg": "/NumoUnoApp/static/media/arrow.b87d7803.svg",
     "static/media/arrowdown.svg": "/NumoUnoApp/static/media/arrowdown.80fa7da9.svg",
@@ -30,8 +30,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.fc1a18b7.js",
-    "static/js/2.92c5b616.chunk.js",
-    "static/css/main.bdd5c526.chunk.css",
-    "static/js/main.fa0f2921.chunk.js"
+    "static/js/2.5ddddce0.chunk.js",
+    "static/css/main.0a292251.chunk.css",
+    "static/js/main.7c14302c.chunk.js"
   ]
 }
