@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import classes from "./Navigation.module.css";
 import NavigationIndi from "../NavigationIndi/NavigationIndi";
 import DropIndi from "./DropIndi/DropIndi";
+import Logo from "../../assets/Logo.png";
 
 class navigationBar extends Component {
   state = {
@@ -100,6 +101,9 @@ class navigationBar extends Component {
   render() {
     return (
       <div className={classes.navContainer}>
+        <div className={classes.logoMain}>
+          <img src={Logo} alt="Logo"></img>
+        </div>
         <div className={classes.space1}></div>
         <div className={classes.innerContainer}>
           <NavigationIndi
@@ -129,8 +133,8 @@ class navigationBar extends Component {
           />
           {this.state.DualDrop}
         </div>
-        <div className={classes.space2}></div>
-        <NavigationIndi name="Hamberger" />
+        {/*<div className={classes.space2}></div>
+        <NavigationIndi name="Hamberger" />*/}
       </div>
     );
   }

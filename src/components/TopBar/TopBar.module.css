@@ -25,6 +25,14 @@
 .user {
   padding: 10px;
 }
+.userDropBtn {
+  padding: 0;
+  position: relative;
+}
+
+.userDropBtn img {
+  width: 16px;
+}
 
 @media screen and (max-width: 400px) {
   .name {

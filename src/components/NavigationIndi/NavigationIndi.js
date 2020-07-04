@@ -24,11 +24,11 @@ class navigationIndi extends Component {
     let Icon = null;
 
     if (this.props.name === "Contact") {
-      Icon = <i className="las la-address-book"></i>;
+      Icon = <i className="las la-id-card"></i>;
     } else if (this.props.name === "Circle") {
-      Icon = <i className="las la-folder"></i>;
+      Icon = <i className="las la-chart-pie"></i>;
     } else if (this.props.name === "Message") {
-      Icon = <i className="las la-sms"></i>;
+      Icon = <i className="lab la-connectdevelop"></i>;
     } else if (this.props.name === "Dual") {
       Icon = <i className="las la-user-cog"></i>;
     } else Icon = <i className="las la-layer-group"></i>;
