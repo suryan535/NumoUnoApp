@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/NumoUnoApp/static/css/main.d9d0a9c9.chunk.css",
-    "main.js": "/NumoUnoApp/static/js/main.4087634c.chunk.js",
-    "main.js.map": "/NumoUnoApp/static/js/main.4087634c.chunk.js.map",
+    "main.css": "/NumoUnoApp/static/css/main.143380da.chunk.css",
+    "main.js": "/NumoUnoApp/static/js/main.14ebc65e.chunk.js",
+    "main.js.map": "/NumoUnoApp/static/js/main.14ebc65e.chunk.js.map",
     "runtime-main.js": "/NumoUnoApp/static/js/runtime-main.fc1a18b7.js",
     "runtime-main.js.map": "/NumoUnoApp/static/js/runtime-main.fc1a18b7.js.map",
     "static/js/2.d8c5eec8.chunk.js": "/NumoUnoApp/static/js/2.d8c5eec8.chunk.js",
     "static/js/2.d8c5eec8.chunk.js.map": "/NumoUnoApp/static/js/2.d8c5eec8.chunk.js.map",
     "index.html": "/NumoUnoApp/index.html",
-    "precache-manifest.86cb0cbc1bbb9aa3d638e506883f4d9d.js": "/NumoUnoApp/precache-manifest.86cb0cbc1bbb9aa3d638e506883f4d9d.js",
+    "precache-manifest.5e3ad07cae6753018eaa2578d01760ca.js": "/NumoUnoApp/precache-manifest.5e3ad07cae6753018eaa2578d01760ca.js",
     "service-worker.js": "/NumoUnoApp/service-worker.js",
-    "static/css/main.d9d0a9c9.chunk.css.map": "/NumoUnoApp/static/css/main.d9d0a9c9.chunk.css.map",
+    "static/css/main.143380da.chunk.css.map": "/NumoUnoApp/static/css/main.143380da.chunk.css.map",
     "static/js/2.d8c5eec8.chunk.js.LICENSE.txt": "/NumoUnoApp/static/js/2.d8c5eec8.chunk.js.LICENSE.txt",
-    "static/media/Logo.png": "/NumoUnoApp/static/media/Logo.47b9b0bc.png",
     "static/media/active.svg": "/NumoUnoApp/static/media/active.48dab390.svg",
     "static/media/arrow.svg": "/NumoUnoApp/static/media/arrow.b87d7803.svg",
     "static/media/company.svg": "/NumoUnoApp/static/media/company.675ccde1.svg",
     "static/media/connections.svg": "/NumoUnoApp/static/media/connections.0c22c608.svg",
+    "static/media/logoBlack.png": "/NumoUnoApp/static/media/logoBlack.627c5120.png",
     "static/media/peers.svg": "/NumoUnoApp/static/media/peers.483b7c65.svg",
     "static/media/pointarrow.svg": "/NumoUnoApp/static/media/pointarrow.de65546f.svg",
     "static/media/popularTime.svg": "/NumoUnoApp/static/media/popularTime.08ec164e.svg",
@@ -31,7 +31,7 @@
   "entrypoints": [
     "static/js/runtime-main.fc1a18b7.js",
     "static/js/2.d8c5eec8.chunk.js",
-    "static/css/main.d9d0a9c9.chunk.css",
-    "static/js/main.4087634c.chunk.js"
+    "static/css/main.143380da.chunk.css",
+    "static/js/main.14ebc65e.chunk.js"
   ]
 }

@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "de2c2542060e5cee9a3326769a0725cf",
+    "revision": "d03a0eaa2741b2269632e51f4442500a",
     "url": "/NumoUnoApp/index.html"
   },
   {
-    "revision": "529d08280a7a22b0cd7f",
-    "url": "/NumoUnoApp/static/css/main.d9d0a9c9.chunk.css"
+    "revision": "6f0a239ae72f637bb901",
+    "url": "/NumoUnoApp/static/css/main.143380da.chunk.css"
   },
   {
     "revision": "44d17b0b397a589c0b85",
@@ -16,16 +16,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/NumoUnoApp/static/js/2.d8c5eec8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "529d08280a7a22b0cd7f",
-    "url": "/NumoUnoApp/static/js/main.4087634c.chunk.js"
+    "revision": "6f0a239ae72f637bb901",
+    "url": "/NumoUnoApp/static/js/main.14ebc65e.chunk.js"
   },
   {
     "revision": "6e3ce093ca8d496846d5",
     "url": "/NumoUnoApp/static/js/runtime-main.fc1a18b7.js"
-  },
-  {
-    "revision": "47b9b0bc5b225e2f8e64295d104d4f54",
-    "url": "/NumoUnoApp/static/media/Logo.47b9b0bc.png"
   },
   {
     "revision": "48dab3905c327aea0b0b56ba5c1a5f9a",
@@ -42,6 +38,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "0c22c608c7450549f4e7d4d9c80021f9",
     "url": "/NumoUnoApp/static/media/connections.0c22c608.svg"
+  },
+  {
+    "revision": "627c51207881449411ec8122281937ce",
+    "url": "/NumoUnoApp/static/media/logoBlack.627c5120.png"
   },
   {
     "revision": "483b7c65d4cdf134cedd2b52b4836e2f",
