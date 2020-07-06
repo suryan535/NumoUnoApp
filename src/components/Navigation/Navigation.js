@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import classes from "./Navigation.module.css";
 import NavigationIndi from "../NavigationIndi/NavigationIndi";
 import DropIndi from "./DropIndi/DropIndi";
-import Logo from "../../assets/Logo.png";
+import Logo from "../../assets/logoBlack.png";
 
 class navigationBar extends Component {
   state = {

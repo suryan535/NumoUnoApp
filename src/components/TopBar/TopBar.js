@@ -46,7 +46,7 @@ class topBar extends Component {
               onClick={this.userDropToggleHandler}
             >
               <i
-                className="las la-sign-out-alt"
+                className="las la-caret-down"
                 style={this.state.userIconStyle}
               ></i>
               {this.state.userDrop}
